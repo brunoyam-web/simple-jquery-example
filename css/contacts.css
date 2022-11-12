@@ -1,0 +1,64 @@
+/*--------------------Page 2 - Contacts--------------------*/
+.header-section {
+	padding-bottom: 150px;
+}
+/*------------------------Main offer-----------------------*/
+.contacts-main-offer {
+	color: #fff;
+}
+.contacts-main-offer__title {
+	position: relative;
+	color: #fff!important;
+	margin-bottom: 50px;
+}
+.contacts-main-offer__title::after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	background-color: #fff;
+	opacity: 0.50;
+}
+.contacts-menu {
+	max-width: 350px;
+}
+.contacts-menu__item {
+	margin-bottom: 10px;
+}
+.contacts-menu__item a {
+	color: #fff;
+}
+.contacts-menu__item:nth-child(3) {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/*------------------------Map section-----------------------*/
+.map-section {
+	padding: 30px 0;
+}
+.map {
+	display: flex;
+	padding: 30px 100px;
+}
+
+/*Media queries*/
+/*768-992*/
+@media screen and (max-width: 992px) {
+
+}
+/*576-768*/
+@media screen and (max-width: 768px) {
+	.map {
+		padding: 30px 0;
+	}
+}
+/*320-576*/
+@media screen and (max-width: 576px) {
+	
+}
+@media screen and (max-width: 399px) {
+	.contacts-main-offer__title {
+	    font-size: 29px!important;
+	}
+}
